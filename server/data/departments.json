@@ -1,0 +1,99 @@
+[
+  {
+    "id": "it-services",
+    "name": "IT Services & Network Operations",
+    "category": "Technical",
+    "supportTeam": "Campus Network & Endpoint Engineering",
+    "email": "it-support@campus.edu",
+    "phone": "ext. 4357 (HELP)",
+    "location": "Technology Building, Room 102",
+    "sla": "2-4 business hours",
+    "responsibilities": [
+      "Wi-Fi connectivity, WPA2-Enterprise access points",
+      "Wired Ethernet in dorms and study halls",
+      "Campus student printing kiosks and quotas",
+      "Computer lab workstations and peripherals"
+    ]
+  },
+  {
+    "id": "classroom-av",
+    "name": "Classroom AV & Media Support",
+    "category": "Technical",
+    "supportTeam": "Instructional Media Engineering",
+    "email": "av-support@campus.edu",
+    "phone": "ext. 4358 (DISP)",
+    "location": "Academic Complex, West Wing LL-10",
+    "sla": "15-30 minutes for active lectures, 4 hours general",
+    "responsibilities": [
+      "Lecture hall projectors, screens, and lectern touchscreens",
+      "Wireless projection, HDMI/USB-C adapters",
+      "Microphones, lecture capture recording systems",
+      "Smartboards and digital displays"
+    ]
+  },
+  {
+    "id": "facilities-ops",
+    "name": "Facilities & Campus Operations",
+    "category": "Administrative",
+    "supportTeam": "Physical Plant & Maintenance Services",
+    "email": "facilities@campus.edu",
+    "phone": "ext. 2222",
+    "location": "Service Building, Dock 4",
+    "sla": "1-2 business days (Immediate for urgent leaks/safety hazards)",
+    "responsibilities": [
+      "Water fountains, plumbing, restroom repairs",
+      "Classroom furniture, broken desks and seating",
+      "Heating, ventilation, and air conditioning (HVAC)",
+      "Building doors, locks, lighting, and physical accessibility"
+    ]
+  },
+  {
+    "id": "sis-iam",
+    "name": "Student Information Systems & Identity Management",
+    "category": "Technical",
+    "supportTeam": "Campus Identity & Access Management (IAM)",
+    "email": "accounts@campus.edu",
+    "phone": "ext. 4359",
+    "location": "Administration Hall, Suite 210",
+    "sla": "1-3 business hours",
+    "responsibilities": [
+      "Student portal login and Single Sign-On (SSO)",
+      "Multi-Factor Authentication (MFA / Duo Security)",
+      "Account lockouts, password resets, campus email access",
+      "Student ID card digital badge authorization"
+    ]
+  },
+  {
+    "id": "academic-affairs",
+    "name": "Academic Affairs & Advising",
+    "category": "Academic",
+    "supportTeam": "Undergraduate Academic Support Center",
+    "email": "advising@campus.edu",
+    "phone": "ext. 3100",
+    "location": "Student Success Hub, 3rd Floor",
+    "sla": "1 business day",
+    "responsibilities": [
+      "Course registration errors and prerequisite overrides",
+      "Academic probation and grade appeal petitions",
+      "Degree audit evaluations and major transfer requests",
+      "Faculty communication escalations"
+    ]
+  },
+  {
+    "id": "student-finance",
+    "name": "Student Finance & Billing",
+    "category": "Finance",
+    "supportTeam": "Bursar & Financial Aid Operations",
+    "email": "bursar@campus.edu",
+    "phone": "ext. 3500",
+    "location": "Student Services Center, 1st Floor",
+    "sla": "1-2 business days",
+    "responsibilities": [
+      "Tuition payments, billing statements, and fee breakdowns",
+      "Financial holds on class registration",
+      "Scholarship, grant, and loan disbursement tracking",
+      "Emergency installment payment plans"
+    ]
+  }
+]
+

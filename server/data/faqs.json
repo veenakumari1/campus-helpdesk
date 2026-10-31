@@ -1,0 +1,93 @@
+[
+  {
+    "id": "faq-wifi-01",
+    "topic": "Wi-Fi & Network Connectivity",
+    "category": "Technical",
+    "keywords": ["wifi", "wi-fi", "wireless", "disconnect", "drops", "internet", "network", "slow", "library"],
+    "policySummary": "Students must connect to 'Campus-Secure' using WPA2-Enterprise with valid university credentials. 'Campus-Guest' is throttled and restricted to public web access.",
+    "verifiedSteps": [
+      "Open your device Wi-Fi settings and choose 'Forget Network' for 'Campus-Secure'.",
+      "Connect temporarily to 'Campus-Guest' and navigate to https://wifi.campus.edu/cert to download the updated 2026 security certificate.",
+      "Reconnect to 'Campus-Secure', entering your full student email (e.g. username@campus.edu) and current active password.",
+      "If experiencing frequent drops on Main Library Floor 2: AP-LIB-2B is currently undergoing antenna balancing; move closer to the East Study Bay or connect via wired Ethernet at the library study carrels."
+    ],
+    "escalationDepartment": "it-services",
+    "allowedSelfResolution": true
+  },
+  {
+    "id": "faq-sso-02",
+    "topic": "Student Portal & Account Access",
+    "category": "Technical",
+    "keywords": ["portal", "login", "credentials", "account", "password", "locked", "sso", "authentication", "duo", "mfa"],
+    "policySummary": "Student passwords expire every 180 days. Accounts enter an automated 30-minute security lockout after 5 consecutive incorrect attempts.",
+    "verifiedSteps": [
+      "Visit https://id.campus.edu/recovery in a private or incognito browsing window to eliminate stale cookies.",
+      "Select 'Self-Service Password Reset' and verify your identity via SMS code sent to your registered emergency mobile number.",
+      "If your Duo MFA prompt times out or fails to push, select 'Other Options' on the login screen and request a 6-digit SMS verification code.",
+      "If your account status indicates an administrative hold, contact the Identity Management desk at accounts@campus.edu with your Student ID."
+    ],
+    "escalationDepartment": "sis-iam",
+    "allowedSelfResolution": true
+  },
+  {
+    "id": "faq-av-03",
+    "topic": "Classroom Audio-Visual & Projectors",
+    "category": "Technical",
+    "keywords": ["projector", "screen", "display", "lecture", "hall", "av", "sound", "microphone", "hdmi"],
+    "policySummary": "Classroom lecterns require pressing 'System On' before video output can synchronize. Urgent AV calls during scheduled lectures receive priority radio dispatch.",
+    "verifiedSteps": [
+      "Check the lectern control touch panel: ensure the power toggle displays a steady green 'Active' status.",
+      "Press and hold 'Source Select' for 2 seconds, then toggle explicitly to 'Lectern HDMI' or 'Lectern USB-C' matching your connected cable.",
+      "On Windows press [Win + P] and verify display mode is set to 'Duplicate'. On macOS verify Displays > Mirror Displays.",
+      "If the projector lamp indicator flashes amber or displays no lamp activity, dial classroom emergency extension ext. 4358 (DISP) for an immediate 10-minute dispatch technician."
+    ],
+    "escalationDepartment": "classroom-av",
+    "allowedSelfResolution": true
+  },
+  {
+    "id": "faq-facilities-04",
+    "topic": "Campus Facilities & Physical Maintenance",
+    "category": "Administrative",
+    "keywords": ["water", "fountain", "leak", "plumbing", "toilet", "light", "hvac", "ac", "cold", "hot", "broken", "door"],
+    "policySummary": "Physical repairs are prioritized by safety impact. Active water leaks, exposed electrical wiring, and broken locks are dispatched with Emergency SLA (under 1 hour).",
+    "verifiedSteps": [
+      "Note the exact building name, wing, room number, or closest structural pillar.",
+      "If water is pooling near electrical fixtures or causing slip hazards, do not touch the fixture and place safety signage if available.",
+      "Submit an issue report with the exact location description so the maintenance crew can route the appropriate plumbing/electrical trade.",
+      "For after-hours emergency flooding or hazards, call Facilities 24/7 hotline at ext. 2222 immediately."
+    ],
+    "escalationDepartment": "facilities-ops",
+    "allowedSelfResolution": false
+  },
+  {
+    "id": "faq-finance-05",
+    "topic": "Tuition Payments & Financial Holds",
+    "category": "Finance",
+    "keywords": ["tuition", "bill", "finance", "hold", "payment", "fee", "bursar", "financial aid", "late fee"],
+    "policySummary": "Balances exceeding $250 trigger a registration hold. Students may enroll in an emergency 3-month deferred payment plan before the census date.",
+    "verifiedSteps": [
+      "Log into Student Portal > My Finance > Account Ledger to inspect specific itemized charges.",
+      "If you have pending financial aid or scholarships awaiting disbursement, check the 'Anticipated Aid' tab to confirm documentation is complete.",
+      "To request a temporary hold release for course enrollment, submit the Financial Aid Deferment Form FA-20 to the Bursar.",
+      "Students experiencing sudden hardship can request an Emergency Emergency Loan voucher through the Student Finance Office."
+    ],
+    "escalationDepartment": "student-finance",
+    "allowedSelfResolution": true
+  },
+  {
+    "id": "faq-academics-06",
+    "topic": "Course Registration & Prerequisite Overrides",
+    "category": "Academic",
+    "keywords": ["registration", "course", "prerequisite", "advisor", "class", "override", "drop", "add", "grades"],
+    "policySummary": "Prerequisite waivers require explicit electronic authorization from both the course instructor and department chair prior to the Add/Drop deadline.",
+    "verifiedSteps": [
+      "Check your Degree Works audit to verify prerequisite catalog course equivalencies.",
+      "Download the 'Electronic Prerequisite Override Petition' from the Academic Advising portal.",
+      "Attach your unofficial transcript highlighting completed prerequisite coursework.",
+      "Submit the petition directly to advising@campus.edu or schedule a 15-minute express appointment with your assigned faculty advisor."
+    ],
+    "escalationDepartment": "academic-affairs",
+    "allowedSelfResolution": true
+  }
+]
+

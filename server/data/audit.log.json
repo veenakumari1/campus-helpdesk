@@ -1,0 +1,104 @@
+[
+  {
+    "id": "audit-1793429431824-329",
+    "timestamp": "2026-10-31T06:50:31.824Z",
+    "type": "STUDENT_APPROVAL_CONFIRMED",
+    "studentId": "student-101",
+    "status": "SUCCESS",
+    "details": {
+      "analysisId": "WF-1793429420357-541",
+      "complaintId": "HD-1050",
+      "isDuplicate": false
+    }
+  },
+  {
+    "id": "audit-1793429431823-325",
+    "timestamp": "2026-10-31T06:50:31.823Z",
+    "type": "COMPLAINT_CREATED",
+    "studentId": "student-101",
+    "status": "SUCCESS",
+    "details": {
+      "id": "HD-1050",
+      "title": "My laptop keeps disconnecting from the Campus-Secure Wi-Fi",
+      "department": "IT Services & Network Operations",
+      "priority": "High"
+    }
+  },
+  {
+    "id": "audit-1793429420362-789",
+    "timestamp": "2026-10-31T06:50:20.362Z",
+    "type": "WORKFLOW_EXECUTED",
+    "studentId": "student-101",
+    "status": "SUCCESS",
+    "details": {
+      "analysisId": "WF-1793429420357-541",
+      "category": "Technical",
+      "priority": "High",
+      "department": "IT Services & Network Operations",
+      "executionTimeMs": 5
+    }
+  },
+  {
+    "id": "audit-1793428990395-385",
+    "timestamp": "2026-10-31T06:43:10.395Z",
+    "type": "STATUS_UPDATED",
+    "studentId": "student-101",
+    "status": "INFO",
+    "details": {
+      "id": "HD-1049",
+      "status": "In Progress"
+    }
+  },
+  {
+    "id": "audit-1793428990376-943",
+    "timestamp": "2026-10-31T06:43:10.376Z",
+    "type": "DUPLICATE_PREVENTED",
+    "studentId": "student-101",
+    "status": "WARNING",
+    "details": {
+      "existingId": "HD-1049",
+      "title": "Lab projector audio jack is completely broken in room 179..."
+    }
+  },
+  {
+    "id": "audit-1793428990376-209",
+    "timestamp": "2026-10-31T06:43:10.376Z",
+    "type": "COMPLAINT_CREATED",
+    "studentId": "student-101",
+    "status": "SUCCESS",
+    "details": {
+      "id": "HD-1049",
+      "title": "Lab projector audio jack is completely broken in room 179...",
+      "department": "Classroom AV & Media Support",
+      "priority": "Normal"
+    }
+  },
+  {
+    "id": "audit-1793428990316-324",
+    "timestamp": "2026-10-31T06:43:10.316Z",
+    "type": "WORKFLOW_EXECUTED",
+    "studentId": "student-101",
+    "status": "SUCCESS",
+    "details": {
+      "analysisId": "WF-1793428990315-202",
+      "category": "Technical",
+      "priority": "Medium",
+      "department": "Classroom AV & Media Support",
+      "executionTimeMs": 1
+    }
+  },
+  {
+    "id": "audit-1793428990313-230",
+    "timestamp": "2026-10-31T06:43:10.313Z",
+    "type": "WORKFLOW_EXECUTED",
+    "studentId": "student-101",
+    "status": "SUCCESS",
+    "details": {
+      "analysisId": "WF-1793428990309-997",
+      "category": "Technical",
+      "priority": "Medium",
+      "department": "IT Services & Network Operations",
+      "executionTimeMs": 3
+    }
+  }
+]
